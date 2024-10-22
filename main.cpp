@@ -23,6 +23,7 @@ void allocateInfo(Teacher teacher[], int num) {
             teacher[i].student[j].name = "Student_";
             teacher[i].student[j].name += nameSeed[j];
             teacher[i].student[j].score = 60;
+
         }
     }
 }
